@@ -20,32 +20,35 @@ nav {
 #logo {
     height: 40px;
 }
+
 #top-left {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
 }
+
 #nav-list {
     display: none;
 }
 
 #top-right {
-display: none;
+    display: none;
 }
 
 
 h1 {
-   color: white;
-   font-size: 55px;
-   margin: 20px 30px 20px 30px;
-   text-align: center;
-   
+    color: white;
+    font-size: 55px;
+    margin: 20px 30px 20px 30px;
+    text-align: center;
+
 }
 
 #span-free {
-    color:#ECB12F ;
+    color: #ECB12F;
 }
+
 #span-like {
-    color:white ;
+    color: white;
 }
 
 #p1 {
@@ -53,8 +56,64 @@ h1 {
     margin: 20px 30px 20px 30px;
     text-align: center;
 }
-@media (min-width: 767px)
-{
+
+#email-google {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#email {
+    color: black;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+#google {
+    background-color: white;
+    width: 50px;
+
+
+}
+
+#google-button {
+    background-color: #4285F4;
+    display: flex;
+    gap: 30px
+}
+
+#signup {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+#hero {
+    display: flex;
+    justify-content: flex-end;
+    height: 700px;
+    margin-top: 30px;
+}
+
+.companies {
+    
+    margin: 0px;;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #F3EAE2;
+}
+
+.img01 {
+    width: 100px;
+    gap: 30 px;
+}
+
+@media (min-width: 767px) {
     #nav-list {
         display: flex;
         flex-direction: row;
