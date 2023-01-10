@@ -18,10 +18,10 @@
 
 <body>
   <nav>
-    <div>
-      <img src="./images/slack-logo.png" alt="Slack logo" />
+    <div id="top-left">
+      <img id="logo" src="./images/slack-logo.png" alt="Slack logo" />
 
-      <ul>
+      <ul id="nav-list">
         <li>
           <a href="#">Product</a>
         </li>
@@ -38,15 +38,16 @@
     </div>
 
     <div>
-      <button>
-        <img src="./images/icon-search.png" alt="Search icon">
-      </button>
+      <div >
+        <button>
+          <img  src="./images/icon-search.png" alt="Search icon">
+        </button>
 
-      <button>
-        <img src="./images/icon-menu.png" alt="Menu icon">
-      </button>
-
-      <ul hidden>
+        <button>
+          <img src="./images/icon-menu.png" alt="Menu icon">
+        </button>
+      </div>
+      <ul id="top-right">
         <li>
           <a href="#">Sign in</a>
         </li>
@@ -61,7 +62,7 @@
     <div>
       <h1>Great teamwork starts with a digital HQ</h1>
 
-      <p>Slack is free to try for as long as you'd like.</p>
+      <p id="p1"><span id="span-free">Slack is free to try</span> <span id="span-like"> as long as you'd like </span></p>
 
       <div>
         <button>Sign up with email</button>
